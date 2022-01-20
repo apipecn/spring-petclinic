@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: spring-petclinic
-          image: kevinvmware/spring-petclinic:latest
+          image: registry.lab.livefire.dev/harbor-cred-mduser002/spring-petclinic:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
